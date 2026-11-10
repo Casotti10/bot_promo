@@ -1,0 +1,6 @@
+.venv 
+.vscode
+.node_modules
+.chromedriver.exe
+.package-lock.json
+.temp
