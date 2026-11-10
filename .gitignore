@@ -1,6 +1,9 @@
-.venv 
-.vscode
-.node_modules
-.chromedriver.exe
-.package-lock.json
-.temp
+# Ambientes virtuais e IDEs 
+.venv/
+.vscode/
+
+# Dependências e arquivos do projeto 
+node_modules/
+package-lock.json
+chromedriver.exe
+temp/
