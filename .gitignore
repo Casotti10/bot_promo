@@ -7,3 +7,9 @@ node_modules/
 package-lock.json
 chromedriver.exe
 temp/
+
+# Arquivos de configuração e credenciais
+config.py
+.env
+__pycache__/
+*.pyc
