@@ -1,15 +1,31 @@
-# Ambientes virtuais e IDEs 
+# Ambientes virtuais e IDEs
 .venv/
 .vscode/
 
-# Dependências e arquivos do projeto 
-node_modules/
-package-lock.json
-chromedriver.exe
-temp/
-
-# Arquivos de configuração e credenciais
-config.py
+# Segredos e credenciais
 .env
+legado/config.py
+
+# Dados gerados pela aplicação (banco, logs, sessão do navegador)
+dados/
+
+# Arquivos de depuração
+mercado_livre.html
+promocoes.json
+
+# Caches do Python e dos testes
 __pycache__/
 *.pyc
+.pytest_cache/
+
+# Sobras de Node.js (não usadas neste projeto)
+node_modules/
+
+# Configuração local do Claude Code (agentes, ajustes pessoais)
+.claude/
+
+# Projeto de referência (consulta local; será removido da pasta no futuro)
+bot-ofertas-telegram.zip
+
+# Gabarito (referência do mentor; não deve ir para o repositório)
+gabarito/

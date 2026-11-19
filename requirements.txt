@@ -1,0 +1,18 @@
+# Telegram (API oficial de bots) + agendador de tarefas
+python-telegram-bot[job-queue]>=21.6
+# Chamadas HTTP às APIs (Shopee, Amazon)
+httpx>=0.27
+# Leitura de HTML das páginas de ofertas
+beautifulsoup4>=4.12
+lxml>=5.2
+# Navegador automatizado (Mercado Livre e reserva da Amazon)
+playwright>=1.47
+# Configuração: .env e config.yaml
+python-dotenv>=1.0
+PyYAML>=6.0
+# Inteligência Artificial (chamadas comerciais)
+anthropic
+# Fusos horários no Windows
+tzdata
+# Testes
+pytest>=8.0
